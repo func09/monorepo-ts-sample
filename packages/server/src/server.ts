@@ -4,6 +4,6 @@ import PingRouter from "@/routes/ping";
 const app = express();
 app.use(PingRouter);
 
-app.listen(3000, () => {
-  console.log("listening on port 3000!");
+app.listen(8080, () => {
+  console.log("listening on port 8080!");
 });

@@ -9,6 +9,7 @@
   "private": true,
   "scripts": {
     "tsc": "tsc",
+    "common": "yarn workspace common",
     "server": "yarn workspace server",
     "web": "yarn workspace web"
   },
