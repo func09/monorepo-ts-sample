@@ -1,0 +1,25 @@
+{
+  "name": "monorepo-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "tsc": "tsc",
+    "server": "yarn workspace server",
+    "web": "yarn workspace web"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "eslint": "^7.19.0",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.1",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
