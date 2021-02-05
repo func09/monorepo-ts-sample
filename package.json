@@ -9,9 +9,9 @@
   "private": true,
   "scripts": {
     "tsc": "tsc",
-    "common": "yarn workspace common",
-    "server": "yarn workspace server",
-    "web": "yarn workspace web"
+    "server": "yarn workspace @monorepo-sample/server",
+    "admin-web": "yarn workspace @monorepo-sample/admin-web",
+    "web": "yarn workspace @monorepo-sample/web"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",
